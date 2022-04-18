@@ -4,17 +4,13 @@
 <p align="center">
   <a href="https://t.me/jintons"><img src="https://github.com/jinto4638/jinto4638/blob/main/giphy.gif"></a>
     </p>
-## Features
+    
+## TO-DO
 
-- [ ] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
+- [ ] Need to add local storage to keep color changeing varialbes availble localy
+- [ ] ideantification for all tabs while hovering on it
+- [ ] Data base to store login datas
+- [x] user can change website color for better experience
+- [x] can send messages to admin 
+- [x] gallery added with view options
+- [x] added dark mode 
