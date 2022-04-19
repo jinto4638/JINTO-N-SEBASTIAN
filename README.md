@@ -18,3 +18,7 @@
 
 ## visit website here 
 <a href="https://jinto4638.github.io"><img src="https://img.shields.io/badge/Visit Website-000000?style=for-the-badge&logo=drive&logoColor=white"></a>
+
+
+<br><p align="center"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{JINTO4638}/count.svg" /></p> 
