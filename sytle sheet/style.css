@@ -88,7 +88,7 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1002;
   background: var(--bg-color);
   width: 30rem;
   border-right: var(--border);
@@ -142,7 +142,7 @@ section {
   position: fixed;
   top: 1.5rem;
   left: 2rem;
-  z-index: 1000;
+  z-index: 1003;
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
