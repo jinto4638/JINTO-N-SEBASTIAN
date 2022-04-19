@@ -282,6 +282,7 @@ bgviolet.onclick = () => {
 
         
         document.body.classList.add('activeviolet');
+        alert("For this background color you can't change main colors due to mismatch of others colours")
     } else {
         document.body.classList.remove('activeviolet');
     }
