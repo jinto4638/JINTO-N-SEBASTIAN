@@ -10,6 +10,7 @@
 - [ ] Need to add local storage to keep color changeing varialbes availble localy
 - [ ] ideantification for all tabs while hovering on it
 - [ ] Data base to store login datas
+- [ ] website visitors count
 - [x] user can change website color for better experience
 - [x] can send messages to admin 
 - [x] gallery added with view options
