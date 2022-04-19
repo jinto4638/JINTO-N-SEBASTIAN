@@ -21,4 +21,4 @@
 
 
 <br><p align="center"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{jinto4638/jinto4638.github.io}/count.svg" /></p> 
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{jinto4638.github.io}/count.svg" /></p> 
