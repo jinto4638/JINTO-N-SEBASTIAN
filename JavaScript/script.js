@@ -76,6 +76,9 @@ close.onclick = () => {
 
 
 /*----------colour chamge testing----------*/
+//main colour heading adding
+var maincolourdiv = document.getElementById("headofmaincolor");
+
 var colourtogRed = document.getElementById("clrbtn-red");
 var colourtogOrange = document.getElementById("clrbtn-ORANGE");
 var colourtogPink = document.getElementById("clrbtn-PINK");
@@ -229,6 +232,14 @@ bgBlack.onclick = () => {
 
 
         document.body.classList.add('activeBlack');
+                        //hide/show div for mismatching colours
+                colourtogRed.style.visibility="visible";
+                colourtogOrange.style.visibility="visible";
+                colourtogPink.style.visibility="visible";
+                colourtogPurple.style.visibility="visible";
+                colourtogGreen.style.visibility="visible";
+                colourtogBlue.style.visibility="visible";
+                maincolourdiv.style.visibility="visible";
     } else {
         document.body.classList.remove('activeBlack');
     }
@@ -247,6 +258,14 @@ bgWhite.onclick = () => {
 
 
         document.body.classList.add('activeWhite');
+                        //hide/show div for mismatching colours
+                colourtogRed.style.visibility="visible";
+                colourtogOrange.style.visibility="visible";
+                colourtogPink.style.visibility="visible";
+                colourtogPurple.style.visibility="visible";
+                colourtogGreen.style.visibility="visible";
+                colourtogBlue.style.visibility="visible";
+                maincolourdiv.style.visibility="visible";
     } else {
         document.body.classList.remove('activeWhite');
     }
@@ -265,6 +284,14 @@ bgBlue.onclick = () => {
 
 
         document.body.classList.add('activeBlue');
+                        //hide/show div for mismatching colours
+                colourtogRed.style.visibility="visible";
+                colourtogOrange.style.visibility="visible";
+                colourtogPink.style.visibility="visible";
+                colourtogPurple.style.visibility="visible";
+                colourtogGreen.style.visibility="visible";
+                colourtogBlue.style.visibility="visible";
+                maincolourdiv.style.visibility="visible";
     } else {
         document.body.classList.remove('activeBlue');
     }
@@ -282,7 +309,16 @@ bgviolet.onclick = () => {
 
         
         document.body.classList.add('activeviolet');
-        alert("For this background color you can't change main colors due to mismatch of others colours")
+        alert("For this background color you can't change main colors due to mismatch of others colours");
+        //hide/show div for mismatching colours
+        colourtogRed.style.visibility="hidden";
+        colourtogOrange.style.visibility="hidden";
+        colourtogPink.style.visibility="hidden";
+        colourtogPurple.style.visibility="hidden";
+        colourtogGreen.style.visibility="hidden";
+        colourtogBlue.style.visibility="hidden";
+        maincolourdiv.style.visibility="hidden";
+        
     } else {
         document.body.classList.remove('activeviolet');
     }
