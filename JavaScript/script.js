@@ -5,6 +5,16 @@ menu.onclick = () => {
     menu.classList.toggle('fa-times');
     header.classList.toggle('active');
 }
+
+//for closing header tab when click on contact button on the header tab
+let contact1 = document.querySelector('#contact-close');
+
+contact1.onclick = () => {
+    header.classList.remove('active');
+    //menu.classList.toggle('fa-times');
+    menu.classList.remove('fa-times');
+}
+
 /*
 themeToggler.onclick = () =>{
     themeToggler.classList.toggle('fa-sun');
