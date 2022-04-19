@@ -11,6 +11,7 @@
 - [ ] ideantification for all tabs while hovering on it
 - [ ] Data base to store login datas
 - [ ] website visitors count
+- [ ] realtime chat
 - [x] user can change website color for better experience
 - [x] can send messages to admin 
 - [x] gallery added with view options
