@@ -321,9 +321,18 @@
 
 
 
+    <script>
+      //for closing header tab when click on contact button on the header tab
+      let contact1 = document.querySelector('#contact-close');
 
+      contact1.onclick = () => {
+          header.classList.remove('active');
+          //menu.classList.toggle('fa-times');
+          menu.classList.remove('fa-times');
+      }
+    </script>
     <!--connection js section-->
-    <script src="/index.js"></script>
+    <script src="/JavaScript/script.js"></script>
     <!---for AOS effect adding js-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
